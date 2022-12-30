@@ -1,25 +1,20 @@
 # Blood Bank Management System
-![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
+![developer](https://img.shields.io/badge/Developed%20By%20%3A-Mainak%20Chaudhuri-blue)
 ---
 ## Screenshots
 ### Homepage
-![homepage snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/homepage.png?raw=true)
+
 ### Admin Dashboard
-![dashboard snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/admindashboard.png?raw=true)
+
 ### Blood Donation 
-![invoice snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/blooddonation.png?raw=true)
+
 ### Blood Request
-![doctor snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/bloodrequest.png?raw=true)
+
 ### Logout
-![doctor snap](https://github.com/sumitkumar1503/bloodbankmanagement/blob/master/static/screenshot/logout.png?raw=true)
+
 ---
 ## Functions
 
-### Admin
-- Create Admin account using following command
-```
-py manage.py createsuperuser
-```
 - After Login, can see Unit of blood of each blood group available, Number Of Donor, Number of blood request, Number of approved request, Total Unit of blood on Dashboard.
 - Can View, Update, Delete Donor.
 - Can View, Update, Delete Patient.
@@ -41,10 +36,6 @@ py manage.py createsuperuser
 - Donor can see their blood request history with status.
 - Donor can see number of blood request Made, Approved, Pending, Rejected by Admin on their dashboard.
 > **_NOTE:_**  Donor can donate blood and can also request for blood.
-
-
-
-
 
 ### Patient
 - Create account (No Approval Required By Admin, Can Login After Signup)
@@ -73,8 +64,9 @@ py manage.py runserver
 http://127.0.0.1:8000/
 ```
 
+### Admin
+- Create Admin account using following command
+```
+py manage.py createsuperuser
+```
 
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
